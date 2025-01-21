@@ -6,5 +6,5 @@ int main()
     int r;
     scanf("%d",&r);
     printf("Area: %.2f",pi*(r*r));
-    retunr 0;
+    return 0;
 }
