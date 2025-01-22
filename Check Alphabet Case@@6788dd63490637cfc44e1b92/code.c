@@ -11,8 +11,6 @@ int main()
     else if (islower(a)){
         printf("Lowercase");
     }
-    else{
-        printf("");
-    }
+    
     return 0;
 }
