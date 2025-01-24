@@ -18,10 +18,12 @@ int main()
     }
     else if (isdigit(a)){
         printf("Digit");
-    }
-    else if{
+
+    else {
         printf("Special Charatcter");
+    }    
     }
+    
    return 0;
 }
 
