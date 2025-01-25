@@ -10,8 +10,7 @@ int main()
             return 0;
         }
     }
-    else{
-        printf("prime");
-    }
+    
+    printf("prime");
     return 0;
 }
