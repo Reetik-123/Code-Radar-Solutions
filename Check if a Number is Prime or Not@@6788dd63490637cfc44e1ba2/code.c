@@ -9,10 +9,9 @@ int main()
             printf("Not Prime");
             break;
         }
-        else{
-        printf("prime");
-        break;
     }
+    else{
+        printf("prime");
     }
     return 0;
 }
