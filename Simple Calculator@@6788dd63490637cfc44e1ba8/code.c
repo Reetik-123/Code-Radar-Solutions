@@ -15,12 +15,7 @@ int main()
         printf("%d",a*b);
     }
     else if (o=='/'){
-        if (b!=0){
-            printf("%.2f",(float)a/b);
-        }
-        else{
-            printf("");
-        }
+        printf("%f",(float)(a/b));
     }
     return 0;
 }
