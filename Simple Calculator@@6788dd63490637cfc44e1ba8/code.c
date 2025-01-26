@@ -16,7 +16,10 @@ int main()
     }
     else if (o=='/'){
         if (b!=0){
-            printf("%.f",(float)a/b);
+            printf("%.2f",(float)a/b);
+        }
+        else{
+            printf("");
         }
     }
     return 0;
