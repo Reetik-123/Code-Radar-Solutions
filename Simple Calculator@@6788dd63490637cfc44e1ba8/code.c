@@ -15,7 +15,13 @@ int main()
         printf("%d",a*b);
     }
     else if (o=='/'){
+        if (b==0){
+            printf("error");
+        }
+        else{
             printf("%.f",(float)a/b);
+        }
+            
     }
     return 0;
 }
