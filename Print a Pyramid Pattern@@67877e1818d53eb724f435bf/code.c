@@ -4,15 +4,16 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    for (int i=1;i<n;i++){
-        for (int j=1;j<i;j++){
-            if (j%2==1){
-                printf("*");
-            }
-            else{
-                continue;
-            }
+    for (int i=0;i<n;i++){
+        for (int j=0;j<n-1;j++){
+            printf(" ");
+        }
+        for (int j=0;j<2*n-1;j++){
+            printf("*");
         }
     }
     return 0;
+
+
+
 }
