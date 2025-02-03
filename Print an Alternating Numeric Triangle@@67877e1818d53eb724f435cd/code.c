@@ -4,9 +4,9 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    for (int i=0;i<ni;i++){
+    for (int i=1;i<a+1;i++){
         if (i%2==1){
-            for (int j=0;j<=i+1;j++){
+            for (int j=1;j<=i;j++){
                 if(j%2==1){
                     printf("1");
 
@@ -15,10 +15,10 @@ int main()
                     printf("0");
                 }
             }
+            printf("\n");
         }
         else{
-            if (i%2==1){
-            for (int j=0;j<=i+1;j++){
+            for (int j=1;j<=i;j++){
                 if(j%2==1){
                     printf("0");
 
@@ -27,8 +27,7 @@ int main()
                     printf("1");
                 }
             }
-        }
-
+            printf("\n");
         }
     }
     return 0;
