@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 
-int main(){
+int mai(){
     int a,b;
     scanf("%d %d",&a,&b);
     if(a==b){
