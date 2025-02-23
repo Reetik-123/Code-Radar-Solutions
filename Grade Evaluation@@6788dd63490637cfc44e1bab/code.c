@@ -17,7 +17,7 @@ int main() {
     } else if (grade == 'F' || grade == 'f') {
         printf("Fail\n");
     } else {
-        printf("Invalid grade! Please enter A, B, C, D, or F.\n");
+        printf("Invalid grade\n");
     }
 
     return 0;
