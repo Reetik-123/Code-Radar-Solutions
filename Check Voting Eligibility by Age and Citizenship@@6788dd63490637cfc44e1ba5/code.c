@@ -12,10 +12,6 @@ int main()
     else{
         printf("Not Eligible");
     }
-    }
-    else{
-        printf("");
-    }
     
     return 0;
 }
