@@ -12,11 +12,11 @@ int main()
     int j=0;
     for(int i=0;i<n;i++){
         if(arr[i+1]< arr[i]){
-            printf("Sorted");
+            printf("Not sorted");
             break;
         }
         else{
-            printf("Not Sorted");
+            printf("Sorted");
             break;
         }
         
