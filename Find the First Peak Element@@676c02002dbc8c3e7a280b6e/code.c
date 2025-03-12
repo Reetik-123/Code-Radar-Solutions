@@ -1,0 +1,19 @@
+// Your code here..
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    int arr[];
+    for(int i=0;i<a;i++){
+        scanf("%d",&arr[i]);
+    }
+    for(int i=0;i<n;i++){
+        if(arr[i+1]>arr[i] && arr[i+1]>arr[i+2]){
+            printf("%d",arr[i+1]);
+            break;
+        }
+    }
+    
+}
