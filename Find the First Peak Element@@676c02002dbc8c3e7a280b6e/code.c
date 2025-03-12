@@ -12,7 +12,10 @@ int main()
     for(int i=0;i<a;i++){
         if(arr[i+1]>arr[i] && arr[i+1]>arr[i+2]){
             printf("%d",arr[i+1]);
-            break;
+            return 0;
+        }
+        else{
+            printf("%d",arr[a]);
         }
     }
     
