@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main()
-[
+{
     int a;
     int arr[a];
     int cnte=0;
@@ -22,4 +22,4 @@ int main()
     }
     printf("%d %d",cnte,cnto);
     return;
-]
+}
