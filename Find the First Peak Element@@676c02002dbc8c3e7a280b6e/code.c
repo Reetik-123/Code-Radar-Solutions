@@ -9,14 +9,27 @@ int main()
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<a-1;i++){
-        if(arr[i+1]>arr[i] && arr[i-1]<arr[i]){
+    if(a==1){
+        printf("%d",arr[0]);
+        return 0;
+    }
+    else if(arr[0]>arr[1]){
+        printf("%d",arr[0]);
+        return 0;
+    }
+    else{
+        for(int i=1;i<a-1;i++){
+        if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
             printf("%d",arr[i]);
             return 0;
         }
-        
     }
-    
+
+    }
+    if (arr[a-1]>arr[n-2]){
+        printf("%d",arr[-1]);
+        return 0;
+    }
     return 0;
     
 }
