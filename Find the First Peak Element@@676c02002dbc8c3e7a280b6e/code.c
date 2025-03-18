@@ -9,6 +9,7 @@ int main()
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
+    if()
     if(a==1){
         printf("%d",arr[0]);
         return 0;
@@ -27,7 +28,7 @@ int main()
 
     }
     if(arr[a-1]>arr[a-2]){
-        printf("%d",arr[-1]);
+        printf("%d",arr[a-1]);
         return 0;
     }
     return 0;
