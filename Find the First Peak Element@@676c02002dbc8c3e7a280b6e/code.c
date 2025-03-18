@@ -17,6 +17,10 @@ int main()
         printf("%d",arr[0]);
         return 0;
     }
+    else if(arr[a-1]>arr[a-2]){
+        printf("%d",arr[-1]);
+        return 0;
+    }
     else{
         for(int i=1;i<a-1;i++){
         if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
@@ -25,10 +29,6 @@ int main()
         }
     }
 
-    }
-    else if(arr[a-1]>arr[a-2]){
-        printf("%d",arr[-1]);
-        return 0;
     }
     return 0;
     
