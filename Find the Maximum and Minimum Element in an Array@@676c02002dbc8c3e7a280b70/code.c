@@ -9,8 +9,8 @@ int main()
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    int ma=0;
-    int mi=0;
+    int ma=1;
+    int mi=1;
     for(int i=0;i<a;i++){
         if(arr[i]>ma) ma=arr[i];
     }
