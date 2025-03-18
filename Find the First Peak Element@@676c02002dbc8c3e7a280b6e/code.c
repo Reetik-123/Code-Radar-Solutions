@@ -9,7 +9,6 @@ int main()
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    if()
     if(a==1){
         printf("%d",arr[0]);
         return 0;
