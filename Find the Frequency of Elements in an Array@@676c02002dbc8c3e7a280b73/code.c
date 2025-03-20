@@ -7,7 +7,7 @@ int main()
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<a;i++){
         int cnt=0;
         int alcnt=0;
         for(int k=0;k<i;k++){
@@ -18,7 +18,7 @@ int main()
 
         }
         if(alcnt) continue;
-        for(int j=0;j<n;j++){
+        for(int j=0;j<a;j++){
             if(arr[i]==arr[j]){
                 cnt++;
             }
