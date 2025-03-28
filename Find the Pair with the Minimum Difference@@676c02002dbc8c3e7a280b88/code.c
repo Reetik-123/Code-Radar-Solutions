@@ -1,7 +1,9 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int out1,out2,min=0,0,0;
+    int out1=0;
+    int out2=0;
+    int min=0;
     int n;
     scanf("%d",&n);
     int arr[n];
