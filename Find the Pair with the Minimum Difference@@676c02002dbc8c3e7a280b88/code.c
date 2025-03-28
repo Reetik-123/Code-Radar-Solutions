@@ -14,14 +14,16 @@ int main(){
         for(int j=1;j<n;j++){
             if((arr[i]>arr[j])){
                 if(arr[i]-arr[j]<min){
-                    out1,out2=arr[j],arr[i];
+                    out1=arr[j];
+                    out2=arr[i];
                 }
                 else continue;
 
             }
             else if(arr[j]>arr[i]){
                 if(arr[j]-arr[i]<min){
-                    out1,out2=arr[i],arr[j];
+                    out1=arr[i];
+                    out2=arr[j];
                 }
                 else continue;    
             }
