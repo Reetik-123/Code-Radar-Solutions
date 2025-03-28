@@ -3,7 +3,7 @@
 int main(){
     int out1=0;
     int out2=0;
-    int min=0;
+    int min=10;
     int n;
     scanf("%d",&n);
     int arr[n];
